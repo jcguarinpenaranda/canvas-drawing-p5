@@ -1,0 +1,27 @@
+html,body{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.members-title{
+    position: absolute;
+    bottom: 60px;
+    color:white;
+}
+
+.members {
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: row;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.members .member{
+    width: 30px;
+    margin: 10px;
+}

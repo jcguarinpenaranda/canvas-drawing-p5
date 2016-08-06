@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      "p5",
+      "/home/jcguarinpenaranda/workspace/socket.io/canvas-drawings-p5"
+    ]
+  ],
+  "_from": "p5@*",
+  "_id": "p5@0.5.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/p5",
+  "_nodeVersion": "6.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/p5-0.5.2.tgz_1466134676968_0.22014296660199761"
+  },
+  "_npmUser": {
+    "email": "laurmccarthy@gmail.com",
+    "name": "lmccart"
+  },
+  "_npmVersion": "3.8.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "p5",
+    "raw": "p5",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/p5/-/p5-0.5.2.tgz",
+  "_shasum": "40cb198ff58de14ce1c542e11726a8c8e148aa88",
+  "_shrinkwrap": null,
+  "_spec": "p5",
+  "_where": "/home/jcguarinpenaranda/workspace/socket.io/canvas-drawings-p5",
+  "bugs": {
+    "url": "https://github.com/processing/p5.js/issues"
+  },
+  "dependencies": {
+    "brfs": "^1.4.0",
+    "opentype.js": "^0.4.9",
+    "reqwest": "^1.1.5"
+  },
+  "description": "[![Build Status](https://travis-ci.org/processing/p5.js.svg?branch=master)](https://travis-ci.org/processing/p5.js) [![npm version](https://badge.fury.io/js/p5.svg)](https://www.npmjs.com/package/p5)",
+  "devDependencies": {
+    "amdclean": "~0.3.3",
+    "browserify": "^11.0.1",
+    "chai": "^3.5.0",
+    "concat-files": "^0.1.0",
+    "derequire": "^2.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-yuidoc": "0.5.2",
+    "grunt-jscs": "^1.8.0",
+    "grunt-lib-phantomjs": "~0.4.0",
+    "grunt-minjson": "^0.4.0",
+    "grunt-mocha": "~0.4.6",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-newer": "^1.1.0",
+    "grunt-release-it": "^0.2.1",
+    "grunt-saucelabs": "8.6.1",
+    "grunt-update-json": "^0.2.1",
+    "jscs-stylish": "^0.3.1",
+    "marked": "^0.3.5",
+    "mocha": "^2.4.5",
+    "phantomjs": "~1.9.2-4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "40cb198ff58de14ce1c542e11726a8c8e148aa88",
+    "tarball": "https://registry.npmjs.org/p5/-/p5-0.5.2.tgz"
+  },
+  "files": [
+    "lib/addons/p5.dom.js",
+    "lib/addons/p5.sound.js",
+    "lib/p5.js",
+    "lib/p5.min.js",
+    "license.txt"
+  ],
+  "gitHead": "9bb7e55b7088e9083fab87ef8deccb885d2ef595",
+  "homepage": "https://github.com/processing/p5.js#readme",
+  "license": "LGPL-2.1",
+  "main": "./lib/p5.js",
+  "maintainers": [
+    {
+      "name": "lmccart",
+      "email": "laurmccarthy@gmail.com"
+    }
+  ],
+  "name": "p5",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/processing/p5.js.git"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "docs": "grunt yui",
+    "grunt": "grunt",
+    "test": "grunt"
+  },
+  "version": "0.5.2"
+}
